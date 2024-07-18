@@ -121,7 +121,7 @@
   <data name="guna2PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAB9AAAAKfCAYAAAA2DlNnAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAA/7JJREFUeF7s3Qe4LEXV7vHLOeScc85JsmRJEiSDEiSIiIokQRAFFAUxISJRBUSC
+        DgAACw4BQL7hQQAA/7JJREFUeF7s3Qe4LEXV7vHLOeScc85JsmRJEiSDEiSIiIokQRAFFAUxISJRBUSC
         gIqYCCpIUFARCQYUUJQoWUAkiCL4zf2vrrPlhLXP2Xumqruq+32f5/fc+42cqbWqZ8/sPd1d9f+2O/Bw
         ERFJqNfrzYD5sTzWwebYHrviXdgfH8YxOHEiX8Y5k3Eaxv/vP4mjcBjsefeCjbMVNsUaWBJzYqxXr4iI
         iIiIiIiIiIiISFe5D4qIiK/X643BglgNb8E7cAROwoX4AW7Fn/EUXkHOeQGP4C78HN+DnbT/BA6BnXzf
@@ -1724,7 +1724,7 @@
         pr7eczKOR0Wp13fsjm297wUAAAAAAGAruj7yBxXSywpMUQkqAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="guna2GradientPanel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="welcomePanel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEBLAEsAAD/4QDmRXhpZgAATU0AKgAAAAgAAwEOAAIAAACbAAAAMgEaAAUAAAAB
         AAAAzgEbAAUAAAABAAAA1gAAAABGYXN0IGZvb2Qgc2VhbWxlc3MgcGF0dGVybiB3aXRoIHZlY3RvciBs
@@ -3223,7 +3223,7 @@
         Jo8IxmQplfgNOs0gUHmcXojrqYQWsScKE0/JtoSAQduKkwJLuZLVBDQLoI3d+mIhSx+Kf//Z
 </value>
   </data>
-  <data name="guna2GradientButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnProductManagement.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAABKZJREFUeF7t
         3Y+R00gQxeENgRAIgRAIgRAIgQwgBEIgAwiBDI4MIIMjg73X1k91C+UnW3Jr3Fb1V6UqCr/paXmM/8xq
@@ -3249,7 +3249,7 @@
         QmCC
 </value>
   </data>
-  <data name="guna2GradientButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnorderManagement.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAABThJREFUeF7t
         nY1RHDEMhSmBEiiBEuggdBA6gA5CB0kHoQPoIHRAOoAOoAPy3llkbm7WttZ/a+3om/EMk2ilJ+/triUv
@@ -3277,7 +3277,4 @@
         x3EcZ2+cnf0DVN26h4LIT4EAAAAASUVORK5CYII=
 </value>
   </data>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

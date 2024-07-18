@@ -19,7 +19,15 @@ namespace admin
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            welcomePanel.Visible = true;
+            product_Management1.Visible = false;
+            welcomePanel.BringToFront();
+        }
 
+        private void btnProductManagement_Click(object sender, EventArgs e)
+        {
+            product_Management1.Visible = true;
+            product_Management1.BringToFront();
         }
     }
 }
