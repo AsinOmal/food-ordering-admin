@@ -1,0 +1,13 @@
+C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\bin\Debug\admin.exe.config
+C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\bin\Debug\admin.exe
+C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\bin\Debug\admin.pdb
+C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\bin\Debug\Guna.UI2.dll
+C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\obj\Debug\admin.csproj.AssemblyReference.cache
+C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\obj\Debug\admin.Form1.resources
+C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\obj\Debug\admin.Properties.Resources.resources
+C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\obj\Debug\admin.csproj.GenerateResource.cache
+C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\obj\Debug\admin.csproj.CoreCompileInputs.cache
+C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\obj\Debug\admin.csproj.Up2Date
+C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\obj\Debug\admin.exe
+C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\obj\Debug\admin.pdb
+C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\obj\Debug\admin.Product_Management.resources
