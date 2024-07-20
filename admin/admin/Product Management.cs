@@ -82,5 +82,10 @@ namespace admin
                 e.Handled = true;
             }
         }
+
+        private void Product_Management_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

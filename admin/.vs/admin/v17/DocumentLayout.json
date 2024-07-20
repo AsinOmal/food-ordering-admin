@@ -3,15 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|c:\\users\\wwasi\\desktop\\admin-dashboard\\admin\\admin\\product management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|c:\\users\\wwasi\\desktop\\admin-dashboard\\admin\\admin\\order-management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|solutionrelative:admin\\order-management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|c:\\users\\wwasi\\desktop\\admin-dashboard\\admin\\admin\\approve-orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|solutionrelative:admin\\approve-orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\product management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|solutionrelative:admin\\product management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|c:\\users\\wwasi\\desktop\\admin-dashboard\\admin\\admin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|c:\\users\\wwasi\\desktop\\admin-dashboard\\admin\\admin\\product management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|solutionrelative:admin\\product management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|solutionrelative:admin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|c:\\users\\wwasi\\desktop\\admin-dashboard\\admin\\admin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{932430A5-B901-4FB4-9182-CEA5834C8FF3}|admin\\admin.csproj|solutionrelative:admin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,8 +34,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\Form1.cs",
+              "RelativeDocumentMoniker": "admin\\Form1.cs",
+              "ToolTip": "C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\Form1.cs",
+              "RelativeToolTip": "admin\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:41:57.192Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
@@ -38,7 +64,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "approve-orders.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\approve-orders.cs",
+              "RelativeDocumentMoniker": "admin\\approve-orders.cs",
+              "ToolTip": "C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\approve-orders.cs [Design]",
+              "RelativeToolTip": "admin\\approve-orders.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T14:50:04.142Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "order-management.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\order-management.cs",
+              "RelativeDocumentMoniker": "admin\\order-management.cs",
+              "ToolTip": "C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\order-management.cs [Design]",
+              "RelativeToolTip": "admin\\order-management.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T14:47:03.233Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Product Management.cs [Design]",
               "DocumentMoniker": "C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\Product Management.cs",
               "RelativeDocumentMoniker": "admin\\Product Management.cs",
@@ -50,20 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\Form1.cs",
-              "RelativeDocumentMoniker": "admin\\Form1.cs",
-              "ToolTip": "C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\Form1.cs",
-              "RelativeToolTip": "admin\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T17:41:57.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\Form1.cs",
               "RelativeDocumentMoniker": "admin\\Form1.cs",
@@ -72,6 +109,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T16:22:42.912Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product Management.cs",
+              "DocumentMoniker": "C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\Product Management.cs",
+              "RelativeDocumentMoniker": "admin\\Product Management.cs",
+              "ToolTip": "C:\\Users\\wwasi\\Desktop\\Admin-Dashboard\\admin\\admin\\Product Management.cs",
+              "RelativeToolTip": "admin\\Product Management.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAnwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T15:26:58.445Z",
+              "EditorCaption": ""
             }
           ]
         }
