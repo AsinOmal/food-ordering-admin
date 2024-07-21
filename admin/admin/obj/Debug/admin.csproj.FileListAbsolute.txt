@@ -89,3 +89,5 @@ C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\bin\Debug\System.Runtime.Comp
 C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\obj\Debug\admin.approve_orders.resources
 C:\Users\wwasi\Desktop\Admin-Dashboard\admin\admin\obj\Debug\admin.order_management.resources
+D:\Asin Project\food-ordering-admin\admin\admin\obj\Debug\admin.approve_orders.resources
+D:\Asin Project\food-ordering-admin\admin\admin\obj\Debug\admin.order_management.resources

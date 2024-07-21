@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Product_Management));
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnAddImage = new Guna.UI2.WinForms.Guna2GradientButton();
             this.cmbCatType = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -41,15 +43,14 @@
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnSaveProduct = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.comboItems = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.btnDelete = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnRefreash = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureboxitem)).BeginInit();
             this.guna2GradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureboxitem)).BeginInit();
             this.guna2GradientPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,6 +68,32 @@
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
             this.guna2GradientPanel1.Size = new System.Drawing.Size(1090, 58);
             this.guna2GradientPanel1.TabIndex = 0;
+            // 
+            // guna2GradientPanel2
+            // 
+            this.guna2GradientPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2GradientPanel2.BackgroundImage")));
+            this.guna2GradientPanel2.Controls.Add(this.btnRefreash);
+            this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel6);
+            this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2GradientPanel2.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(1090, 58);
+            this.guna2GradientPanel2.TabIndex = 1;
+            // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(21, 9);
+            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(171, 34);
+            this.guna2HtmlLabel6.TabIndex = 0;
+            this.guna2HtmlLabel6.Text = "Add a Product";
             // 
             // guna2HtmlLabel1
             // 
@@ -252,31 +279,6 @@
             this.btnSaveProduct.Text = "Save Product";
             this.btnSaveProduct.Click += new System.EventHandler(this.btnSaveProduct_Click);
             // 
-            // guna2GradientPanel2
-            // 
-            this.guna2GradientPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2GradientPanel2.BackgroundImage")));
-            this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel6);
-            this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2GradientPanel2.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(1090, 58);
-            this.guna2GradientPanel2.TabIndex = 1;
-            // 
-            // guna2HtmlLabel6
-            // 
-            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(21, 9);
-            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(171, 34);
-            this.guna2HtmlLabel6.TabIndex = 0;
-            this.guna2HtmlLabel6.Text = "Add a Product";
-            // 
             // guna2GradientPanel3
             // 
             this.guna2GradientPanel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2GradientPanel3.BackgroundImage")));
@@ -301,52 +303,74 @@
             this.guna2HtmlLabel7.TabIndex = 0;
             this.guna2HtmlLabel7.Text = "Remove a Product";
             // 
-            // guna2ComboBox1
+            // comboItems
             // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderRadius = 15;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.Empty;
-            this.guna2ComboBox1.FocusedState.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.FormattingEnabled = true;
-            this.guna2ComboBox1.HoverState.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.ItemsAppearance.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(88, 501);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.ShadowDecoration.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.Size = new System.Drawing.Size(351, 36);
-            this.guna2ComboBox1.TabIndex = 21;
+            this.comboItems.BackColor = System.Drawing.Color.Transparent;
+            this.comboItems.BorderRadius = 15;
+            this.comboItems.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboItems.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboItems.FocusedColor = System.Drawing.Color.Empty;
+            this.comboItems.FocusedState.Parent = this.comboItems;
+            this.comboItems.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.comboItems.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.comboItems.FormattingEnabled = true;
+            this.comboItems.HoverState.Parent = this.comboItems;
+            this.comboItems.ItemHeight = 30;
+            this.comboItems.ItemsAppearance.Parent = this.comboItems;
+            this.comboItems.Location = new System.Drawing.Point(88, 501);
+            this.comboItems.Name = "comboItems";
+            this.comboItems.ShadowDecoration.Parent = this.comboItems;
+            this.comboItems.Size = new System.Drawing.Size(351, 36);
+            this.comboItems.TabIndex = 21;
             // 
-            // guna2GradientButton2
+            // btnDelete
             // 
-            this.guna2GradientButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton2.BorderRadius = 10;
-            this.guna2GradientButton2.CheckedState.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.CustomImages.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.FillColor = System.Drawing.Color.Red;
-            this.guna2GradientButton2.FillColor2 = System.Drawing.Color.Black;
-            this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton2.HoverState.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton2.Image")));
-            this.guna2GradientButton2.Location = new System.Drawing.Point(460, 501);
-            this.guna2GradientButton2.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.ShadowDecoration.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.Size = new System.Drawing.Size(132, 36);
-            this.guna2GradientButton2.TabIndex = 23;
-            this.guna2GradientButton2.Text = "Delete";
+            this.btnDelete.BackColor = System.Drawing.Color.Transparent;
+            this.btnDelete.BorderRadius = 10;
+            this.btnDelete.CheckedState.Parent = this.btnDelete;
+            this.btnDelete.CustomImages.Parent = this.btnDelete;
+            this.btnDelete.FillColor = System.Drawing.Color.Red;
+            this.btnDelete.FillColor2 = System.Drawing.Color.Black;
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ForeColor = System.Drawing.Color.White;
+            this.btnDelete.HoverState.Parent = this.btnDelete;
+            this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
+            this.btnDelete.Location = new System.Drawing.Point(460, 501);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.ShadowDecoration.Parent = this.btnDelete;
+            this.btnDelete.Size = new System.Drawing.Size(132, 36);
+            this.btnDelete.TabIndex = 23;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnRefreash
+            // 
+            this.btnRefreash.BackColor = System.Drawing.Color.Transparent;
+            this.btnRefreash.BorderRadius = 10;
+            this.btnRefreash.CheckedState.Parent = this.btnRefreash;
+            this.btnRefreash.CustomImages.Parent = this.btnRefreash;
+            this.btnRefreash.FillColor = System.Drawing.Color.Red;
+            this.btnRefreash.FillColor2 = System.Drawing.Color.Black;
+            this.btnRefreash.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRefreash.ForeColor = System.Drawing.Color.White;
+            this.btnRefreash.HoverState.Parent = this.btnRefreash;
+            this.btnRefreash.Image = ((System.Drawing.Image)(resources.GetObject("btnRefreash.Image")));
+            this.btnRefreash.Location = new System.Drawing.Point(878, 7);
+            this.btnRefreash.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRefreash.Name = "btnRefreash";
+            this.btnRefreash.ShadowDecoration.Parent = this.btnRefreash;
+            this.btnRefreash.Size = new System.Drawing.Size(132, 36);
+            this.btnRefreash.TabIndex = 24;
+            this.btnRefreash.Text = "Refresh";
+            this.btnRefreash.Click += new System.EventHandler(this.btnRefreash_Click);
             // 
             // Product_Management
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.guna2GradientButton2);
-            this.Controls.Add(this.guna2ComboBox1);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.comboItems);
             this.Controls.Add(this.guna2GradientPanel3);
             this.Controls.Add(this.btnSaveProduct);
             this.Controls.Add(this.btnAddImage);
@@ -365,9 +389,9 @@
             this.Load += new System.EventHandler(this.Product_Management_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureboxitem)).EndInit();
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2GradientPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureboxitem)).EndInit();
             this.guna2GradientPanel3.ResumeLayout(false);
             this.guna2GradientPanel3.PerformLayout();
             this.ResumeLayout(false);
@@ -393,7 +417,8 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
+        private Guna.UI2.WinForms.Guna2ComboBox comboItems;
+        private Guna.UI2.WinForms.Guna2GradientButton btnDelete;
+        private Guna.UI2.WinForms.Guna2GradientButton btnRefreash;
     }
 }

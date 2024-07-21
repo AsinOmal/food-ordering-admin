@@ -22,12 +22,19 @@ namespace admin
             welcomePanel.Visible = true;
             product_Management1.Visible = false;
             welcomePanel.BringToFront();
+            order_management1.Visible = false;
         }
 
         private void btnProductManagement_Click(object sender, EventArgs e)
         {
             product_Management1.Visible = true;
             product_Management1.BringToFront();
+        }
+
+        private void btnorderManagement_Click(object sender, EventArgs e)
+        {
+            order_management1.Visible = true;
+            order_management1.BringToFront();
         }
     }
 }

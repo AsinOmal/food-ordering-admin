@@ -85,7 +85,78 @@ namespace admin
 
         private void Product_Management_Load(object sender, EventArgs e)
         {
+            string connectionString = "server=localhost;user=root;database=munchbar_db;port=3306";
+            conn = new MySqlConnection(connectionString);
+            conn.Open();
 
+            string sql = "SELECT itemname FROM item";
+            MySqlCommand cmd = new MySqlCommand( sql, conn);
+            MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds);
+            foreach (DataRow row in ds.Tables[0].Rows)
+            {
+                // Assuming one column in the table
+                comboItems.Items.Add(row[0].ToString());
+            }
+            conn.Close();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if(comboItems.SelectedIndex != -1)
+            {
+                string connectionString = "server=localhost;user=root;database=munchbar_db;port=3306";
+                conn = new MySqlConnection(connectionString);
+                conn.Open();
+
+                string sql = "DELETE FROM item WHERE itemname = @name";
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@name", comboItems.Text);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show(comboItems.Text+"deleted successful!", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                comboItems.Items.Clear();
+                string sql2 = "SELECT itemname FROM item";
+                MySqlCommand cmd2 = new MySqlCommand(sql2, conn);
+                MySqlDataAdapter adapter = new MySqlDataAdapter(cmd2);
+                DataSet ds = new DataSet();
+                adapter.Fill(ds);
+                foreach (DataRow row in ds.Tables[0].Rows)
+                {
+                    // Assuming one column in the table
+                    comboItems.Items.Add(row[0].ToString());
+                }
+
+
+                conn.Close();
+            }
+            else
+            {
+                MessageBox.Show("Please select product name first", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnRefreash_Click(object sender, EventArgs e)
+        {
+            string connectionString = "server=localhost;user=root;database=munchbar_db;port=3306";
+            conn = new MySqlConnection(connectionString);
+            conn.Open();
+
+            comboItems.Items.Clear();
+            string sql2 = "SELECT itemname FROM item";
+            MySqlCommand cmd2 = new MySqlCommand(sql2, conn);
+            MySqlDataAdapter adapter = new MySqlDataAdapter(cmd2);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds);
+            foreach (DataRow row in ds.Tables[0].Rows)
+            {
+                // Assuming one column in the table
+                comboItems.Items.Add(row[0].ToString());
+            }
+
+
+            conn.Close();
         }
     }
 }

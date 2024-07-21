@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="guna2GradientButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnConfirm.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAApZJREFUeF7t
         21tu01AUhWEzBVRBGUFvIFVIfWmhdLA88IAAVeKRGTABJgClXMT9Ih7CWtamQqXG2/YxRyT/J20JEh+X
@@ -135,7 +135,7 @@
         UR6FAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="guna2GradientButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnDeclined.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAABAtJREFUeF7t
         nMmKU1EYhLt9hhYVfIBWcWpw40LEneBjuhIcUBr0UVy4dtYWRQUXbVVSZ2HMUHcI596b+uCHJvcMVfWn
@@ -158,10 +158,4 @@
         hBBCWMPe3l+rkIKeqKrBQgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="dgvItemName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dgvQuantity.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

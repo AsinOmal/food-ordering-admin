@@ -3116,6 +3116,26 @@
         Jo8IxmQplfgNOs0gUHmcXojrqYQWsScKE0/JtoSAQduKkwJLuZLVBDQLoI3d+mIhSx+Kf//Z
 </value>
   </data>
+  <data name="btnRefreash.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAA2BJREFUeF7t
+        3TFI1VEUBvBnuEUoBJWoi04NToEuDbrqEuH6bHAxN111kdDcnBWarE2LoNBRR11aFKckWhQJasmGoNd3
+        /+cbCt4Vo3d55557fnA2fff77iJPz/9Zc84555xzzjlNGo1GP2YVs4v5jLmu8LXhe1YwfXw59y9wcbOY
+        Vpnmy7rrwIUty7211DO+vLsKLuq53FcSSzwmbyjSi9nBfAutCvcV8x7Ty+tJCweFH4xfMO5vF5j0P/Bx
+        yLvqONfMG15TGjjgBuayOso1851XlU44RM5yTVzymtLBIW/lLNfENq8pHRzShzmrjnN/Cndyj9eUFg66
+        hVnCfMKU7iMm3MVNXo9zzjnnnHPOpYc3IQvhHUlhFli//RCmLpmKUmf99kOYUclUlFHWbz+EGZBMRRlg
+        /fZDmE7MrypWGULXTtbXAYFK+hX1GWvrgVCHkq0Ih6ytB0JtSbYibLG2Hgi1JtmKsMbaeiDUnGQrwhxr
+        64FQk5KtCJOsrQdCDUu2Igyzth4I1SPZitDD2nogVAfmZxXPttCxg7V1QbDTKqJtp6yrD8LtSUbT9lhX
+        H4TblIymbbKuPgiX4tEibZZZVx+Em5GMps2wrj4INy4ZTRtnXX0QbkgymjbEuvogXJdkNK2LdXVCQMuP
+        MKV/AuZ/IeSRZDXpiDX1Qsjw/LBVO6ypF0KuS1aT1llTL4RclKwmLbKmXgg5JVlNmmJNvRByTLKaNMaa
+        eiHkoGQ1aZA19UJIq1ty+rbhYhD0vIpsyznr6YewFrfk9G3DxSDstmQ2Jf3nQLQKwlrcktO3DReDsPOS
+        2ZR51tMPYS1uyenbhotB2BHJbMoI6+mHsBa35PRtw8UgrLUtOb3bcDEIbGlLTu82XAxC70t2E/ZZKx8I
+        bWlLTu82XAxCh4+Ot2KFtfKB0Ja25PRuw8Ug9IRkN2GCtfKB0Ja25PRuw8UgdLdkN6GbtfKC4Ba25PRv
+        w8Ug/LF0yNox6+QH4S1syenfhotB+A3pkLUN1skPwlvYktO/DReD8I+lQ9YesU5+EP6OdMjabdbJEwq8
+        lB5ZesEa+UKJ8B83cnw/EP5H2l3WyBuKhKcnc/oL2Q/MQ8a3AYUeYHJ4Y3aAuc/Y9qDcU8xrzAlGiw+Y
+        V5gnjOmcc84555xzidRqvwGjJzNjAA/FAwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="btnAddImage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAA0JJREFUeF7t
@@ -4635,7 +4655,7 @@
         Jo8IxmQplfgNOs0gUHmcXojrqYQWsScKE0/JtoSAQduKkwJLuZLVBDQLoI3d+mIhSx+Kf//Z
 </value>
   </data>
-  <data name="guna2GradientButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAA2BJREFUeF7t
         3TFI1VEUBvBnuEUoBJWoi04NToEuDbrqEuH6bHAxN111kdDcnBWarE2LoNBRR11aFKckWhQJasmGoNd3

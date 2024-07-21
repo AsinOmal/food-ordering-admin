@@ -30,11 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.welcomePanel = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.btnProductManagement = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnorderManagement = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.welcomePanel = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label1 = new System.Windows.Forms.Label();
+            this.order_management1 = new admin.order_management();
             this.product_Management1 = new admin.Product_Management();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -54,30 +55,6 @@
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
             this.guna2GradientPanel1.Size = new System.Drawing.Size(1044, 104);
             this.guna2GradientPanel1.TabIndex = 0;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(233, 77);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            // 
-            // welcomePanel
-            // 
-            this.welcomePanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("welcomePanel.BackgroundImage")));
-            this.welcomePanel.Controls.Add(this.product_Management1);
-            this.welcomePanel.Controls.Add(this.label1);
-            this.welcomePanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.welcomePanel.Location = new System.Drawing.Point(0, 104);
-            this.welcomePanel.Name = "welcomePanel";
-            this.welcomePanel.ShadowDecoration.Parent = this.welcomePanel;
-            this.welcomePanel.Size = new System.Drawing.Size(1044, 399);
-            this.welcomePanel.TabIndex = 1;
             // 
             // btnProductManagement
             // 
@@ -102,6 +79,18 @@
             this.btnProductManagement.Text = "Product Management";
             this.btnProductManagement.Click += new System.EventHandler(this.btnProductManagement_Click);
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(233, 77);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 0;
+            this.guna2PictureBox1.TabStop = false;
+            // 
             // btnorderManagement
             // 
             this.btnorderManagement.Animated = true;
@@ -123,6 +112,20 @@
             this.btnorderManagement.Size = new System.Drawing.Size(254, 61);
             this.btnorderManagement.TabIndex = 0;
             this.btnorderManagement.Text = "Order Management";
+            this.btnorderManagement.Click += new System.EventHandler(this.btnorderManagement_Click);
+            // 
+            // welcomePanel
+            // 
+            this.welcomePanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("welcomePanel.BackgroundImage")));
+            this.welcomePanel.Controls.Add(this.label1);
+            this.welcomePanel.Controls.Add(this.product_Management1);
+            this.welcomePanel.Controls.Add(this.order_management1);
+            this.welcomePanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.welcomePanel.Location = new System.Drawing.Point(0, 104);
+            this.welcomePanel.Name = "welcomePanel";
+            this.welcomePanel.ShadowDecoration.Parent = this.welcomePanel;
+            this.welcomePanel.Size = new System.Drawing.Size(1044, 622);
+            this.welcomePanel.TabIndex = 1;
             // 
             // label1
             // 
@@ -135,6 +138,14 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Welcome";
             // 
+            // order_management1
+            // 
+            this.order_management1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.order_management1.Location = new System.Drawing.Point(0, 0);
+            this.order_management1.Name = "order_management1";
+            this.order_management1.Size = new System.Drawing.Size(1044, 622);
+            this.order_management1.TabIndex = 3;
+            // 
             // product_Management1
             // 
             this.product_Management1.BackColor = System.Drawing.Color.White;
@@ -142,13 +153,13 @@
             this.product_Management1.Location = new System.Drawing.Point(0, 0);
             this.product_Management1.Margin = new System.Windows.Forms.Padding(4);
             this.product_Management1.Name = "product_Management1";
-            this.product_Management1.Size = new System.Drawing.Size(1044, 399);
-            this.product_Management1.TabIndex = 2;
+            this.product_Management1.Size = new System.Drawing.Size(1044, 622);
+            this.product_Management1.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1044, 504);
+            this.ClientSize = new System.Drawing.Size(1044, 723);
             this.Controls.Add(this.welcomePanel);
             this.Controls.Add(this.guna2GradientPanel1);
             this.MaximizeBox = false;
@@ -171,6 +182,7 @@
         private Guna.UI2.WinForms.Guna2GradientButton btnorderManagement;
         private Guna.UI2.WinForms.Guna2GradientButton btnProductManagement;
         private System.Windows.Forms.Label label1;
+        private order_management order_management1;
         private Product_Management product_Management1;
     }
 }
