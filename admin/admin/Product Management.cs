@@ -72,6 +72,8 @@ namespace admin
 
                 
             }
+            else
+                MessageBox.Show("Please fill all fields", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void txtPrice_KeyPress(object sender, KeyPressEventArgs e)
